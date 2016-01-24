@@ -131,7 +131,7 @@ h6 {
   .navbar-default a:active,
   .navbar-default a:hover,
   .navbar-default a:focus {
-    color: black; }
+    color: #330000; }
   .navbar .dropdown-menu,
   .navbar-default .dropdown-menu {
     padding: 0 0 5px 0; }
@@ -298,6 +298,11 @@ h6 {
 
   .navbar-logo {
     text-indent: 15px; }
+
+  .nav .open > a,
+  .nav .open > a:focus,
+  .nav .open > a:hover {
+    border-color: #900; }
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #eee; }

@@ -105,7 +105,7 @@ h6 {
   a:active,
   a:hover,
   a:focus {
-    color: darken($primary, 35%);
+    color: darken($primary, 20%);
   }
 
   .dropdown-menu {
@@ -188,7 +188,7 @@ h6 {
 #main-footer {
   margin-top: 64px;
   margin-bottom: 128px;
-  
+
   .site-map,
   .copyright,
   .social-links {
@@ -293,6 +293,11 @@ h6 {
   }
   .navbar-logo {
     text-indent: 15px;
+  }
+  .nav .open > a,
+  .nav .open > a:focus,
+  .nav .open > a:hover {
+    border-color: $primary;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: $light;
